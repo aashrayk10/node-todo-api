@@ -1,0 +1,21 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mongodb-connect.js",
+  "scripts": {
+    "test": "mocha playground/server/**/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.2.6",
+    "mongoose": "^5.5.11"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.5.3",
+    "nodemon": "^1.10.2",
+    "supertest": "^2.0.0"
+  }
+}
